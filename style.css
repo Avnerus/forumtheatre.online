@@ -1,0 +1,50 @@
+.stage {
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+}
+.stage h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 5px;
+}
+#tel-aviv-stage {
+    background-image: url('tel-aviv.jpg');
+}
+.puppet {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: solid 1px;
+}
+
+.puppet.disabled {
+    filter: grayscale(100%);
+    cursor: not-allowed;
+}
+.puppet.disabled a {
+    text-decoration: none;
+    color: #313131;
+    cursor: not-allowed;
+}
+
+.puppet-image {
+    border-style: solid;
+    border-width: 5px;
+}
+.puppet img {
+    max-width: 100%;
+    height: auto;
+}
+.puppet-name {
+    flex-grow: 1;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+#puppet-makers {
+    font-size: 10px;
+}

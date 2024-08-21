@@ -12,6 +12,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fuchsia.min.css"
     >
+    <link
+      rel="stylesheet"
+      href="style.css"
+    >
   </head>
   <body>
       <main class="container">
@@ -21,11 +25,45 @@
           </ul>
           <ul>
             <li><strong><a href="/">Home</a></strong></li>
-            <li><a href="make.html">Make a Puppet</a></li>
+            <li><a href="join.html">Join</a></li>
             <li><a href="research.html">Research</a></li>
             <li><a href="privacy.html">Privacy</a></li>
           </ul>
         </nav>
+        <h1> Stages </h1>
+        <div class="stage" id="tel-aviv-stage">
+          <h2> Tel Aviv </h2>
+        </div>
+        <hr>
+        <div class="puppet">
+          <div class="puppet-image">
+            <img src="bibi.jpg" alt="Bibi">
+          </div>
+          <div class="puppet-name"><a href="#" class="contrast">Bejamin Netanyahu</a></div>
+        </div>
       </main>
+      <dialog>
+        <article>
+          <h2>Your are connecting to a puppet in a public space</h2>
+          <ul>
+            <li>Your voice will be transformed to that of the character.</li>
+            <li>Please be respectful.</li>
+            <li>Move the phone to move the puppet.</li>
+            <li>Press the red button to move the arms.</li>
+            <li>Hold the microhpone button to speak.</li>
+            <li>One person at a time can operate the puppet. Others wait in the queue.</li>
+          </ul>
+          <p id="puppet-makers">
+            <strong>Telepuppet makers:</strong> Marian Boo, Bat Dezabeli / Craftoola, Alona Goldberg, Gal Gorfung, Nimrod Keret, Ivan Lukomskiy, Avner Peled, Neora Shem Shaul. 
+          </p>
+          <footer>
+            <button id="cancel" class="secondary">
+              Cancel
+            </button>
+            <button id="go">Connect</button>
+          </footer>
+        </article>
+      </dialog>
+      <script src="script.js"></script>
   </body>
 </html>
