@@ -17,5 +17,5 @@ document.querySelector('#cancel').addEventListener('click', () => {
     document.querySelector('dialog').close();
 })
 document.querySelector('#go').addEventListener('click', () => {
-    window.open('https://puppetvoice.aalto.fi/bibi/','__blank');
+    window.open('https://puppetvoice.aalto.fi/bibi/','_blank');
 })
