@@ -48,3 +48,7 @@
 .puppet-makers {
     font-size: 10px;
 }
+
+.puppet-image img {
+    max-width: 150px;
+}
