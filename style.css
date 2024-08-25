@@ -56,3 +56,21 @@
 .live-stream {
     margin-left: 20px;
 }
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+#footer-content {
+    display: flex;
+    justify-content: center;
+}
+#footer-content a {
+    text-decoration: none;
+}
+footer img { 
+    width: 20px;
+    margin-right: 5px;
+    margin-bottom: 6px;
+}
